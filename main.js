@@ -76,7 +76,7 @@ document.onclick = function(e) {
 //script untuk auto close navbar setelah user menekan link navbar
 navbar.addEventListener('click', function() {
 
-    if (window.innerWidth <= 768) {
+    if (window.innerWidth <= 992) {
         navbar.classList.remove('nav-on');
         navbar.classList.add('nav-off');
         toggle.checked = false;
